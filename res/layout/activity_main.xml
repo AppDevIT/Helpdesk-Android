@@ -1,0 +1,95 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".basic_activity1"
+    tools:ignore="MergeRootFrame"
+    android:background="#000000" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/header"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#EAC117"
+            android:textSize="35sp" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@raw/firstintentlogo"
+            android:layout_weight="1" android:contentDescription="@string/headLogoName"/>
+ 
+     </LinearLayout>
+     
+     <ScrollView
+             android:id="@+id/scrollView1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="60dp" >
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="fill_parent"
+                 android:orientation="vertical" >
+
+                 <Button
+                     android:id="@+id/knowledgebase1"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/knowledgebase1"
+                     android:textColor="#EAC117" />
+                 
+                 <Button
+                     android:id="@+id/submitrequest1"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/submitrequest1"
+                     android:textColor="#EAC117" />
+
+                <Button
+                     android:id="@+id/submitrequest2"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/submitTechnician"
+                     android:textColor="#EAC117" />
+                 
+                 <Button
+                     android:id="@+id/helpButton"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/helpButton"
+                     android:textColor="#EAC117" />
+                 
+                 <Button
+                     android:id="@+id/faqButton"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/faqButton"
+                     android:textColor="#EAC117" />
+                 
+                  <Button
+                     android:id="@+id/callButton"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/callButton"
+                     android:textColor="#EAC117" />
+                 
+                   <Button
+                     android:id="@+id/developerButton"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/developerButton"
+                     android:textColor="#EAC117" />
+            </LinearLayout>
+         </ScrollView>
+</FrameLayout>

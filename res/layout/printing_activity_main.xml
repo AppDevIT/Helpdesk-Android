@@ -1,0 +1,173 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".healthy_activity1"
+    tools:ignore="MergeRootFrame"
+    android:background="#000000" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/header"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#EAC117"
+            android:textSize="35sp" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@raw/firstintentlogo"
+            android:layout_weight="1" android:contentDescription="@string/headLogoName"/>
+ 
+     </LinearLayout>
+     
+     <ScrollView
+             android:id="@+id/scrollView1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="60dp" >
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="fill_parent"
+                 android:orientation="vertical" >
+
+                 <Button
+                     android:id="@+id/printing_activity_Button1"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/printingActivityButton1"
+                     android:textColor="#EAC117" /> 
+                     
+                 <Button
+                     android:id="@+id/printing_activity_Button2"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/printingActivityButton2"
+                     android:textColor="#EAC117" /> 
+                     
+                 <Button
+                     android:id="@+id/printing_activity_Button3"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/printingActivityButton3"
+                     android:textColor="#EAC117" /> 
+                     
+                 <Button
+                     android:id="@+id/printing_activity_Button4"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/printingActivityButton4"
+                     android:textColor="#EAC117" /> 
+                     
+                 <Button
+                     android:id="@+id/printing_activity_Button5"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/printingActivityButton5"
+                     android:textColor="#EAC117" />
+                 
+                 <Button
+                     android:id="@+id/printing_activity_Button6"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/printingActivityButton6"
+                     android:textColor="#EAC117" />
+                 
+                 <Button
+                     android:id="@+id/printing_activity_Button7"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/printingActivityButton7"
+                     android:textColor="#EAC117" />
+                 
+                 <Button
+                     android:id="@+id/printing_activity_Button8"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/printingActivityButton8"
+                     android:textColor="#EAC117" />
+                 
+                 <Button
+                     android:id="@+id/printing_activity_Button9"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/printingActivityButton9"
+                     android:textColor="#EAC117" />
+                 
+                 <Button
+                     android:id="@+id/printing_activity_Button10"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/printingActivityButton10"
+                     android:textColor="#EAC117" />
+                 
+                 <Button
+                     android:id="@+id/printing_activity_Button11"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/printingActivityButton11"
+                     android:textColor="#EAC117" />
+                 
+                 <Button
+                     android:id="@+id/printing_activity_Button12"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/printingActivityButton12"
+                     android:textColor="#EAC117" />
+                 
+                 <Button
+                     android:id="@+id/printing_activity_Button13"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/printingActivityButton13"
+                     android:textColor="#EAC117" />
+                 
+                 <Button
+                     android:id="@+id/printing_activity_Button14"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/printingActivityButton14"
+                     android:textColor="#EAC117" />
+                 
+                 <Button
+                     android:id="@+id/printing_activity_Button15"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/printingActivityButton15"
+                     android:textColor="#EAC117" />
+                 
+                 <Button
+                     android:id="@+id/printing_activity_Button16"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/printingActivityButton16"
+                     android:textColor="#EAC117" />
+                 
+                 <Button
+                     android:id="@+id/printing_activity_Button17"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/printingActivityButton17"
+                     android:textColor="#EAC117" />
+                 
+                 <Button
+                     android:id="@+id/printing_activity_Button18"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/printingActivityButton18"
+                     android:textColor="#EAC117" />
+                     
+                 </LinearLayout>
+         </ScrollView>
+</FrameLayout>

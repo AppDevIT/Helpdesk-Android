@@ -1,0 +1,1383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Depauw.dpuhelpdesk"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-sdk
+        android:minSdkVersion="13"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.Depauw.dpuhelpdesk.MainActivity"
+            android:label="@string/app_name"
+            android:configChanges="orientation" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+			android:name="com.Depauw.dpuhelpdesk.knowledgebase1_activity"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.knowledgebase1_activity"/>
+			</intent-filter>
+		</activity>
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.submitRequest_activity"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.submitRequest_activity"/>
+			</intent-filter>
+		</activity>
+
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.accounts_activity1"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.accounts_activity1"/>
+			</intent-filter>
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.accounts_activity_id"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.accounts_activity_id"/>
+			</intent-filter>
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.accounts_activity_mealplan"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.accounts_activity_mealplan"/>
+			</intent-filter>
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.accounts_activity_payroll"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.accounts_activity_payroll"/>
+			</intent-filter>
+			
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.accounts_activity_passwards"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.accounts_activity_passwards"/>
+			</intent-filter>
+			
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.accounts_activity_vpn"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.accounts_activity_vpn"/>
+			</intent-filter>
+			
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.accounts_activity_printing"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.accounts_activity_printing"/>
+			</intent-filter>
+			
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.basic_activity1"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.basic_activity1"/>
+			</intent-filter>
+			
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.basic_activity_burncdmac"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.basic_activity_burncdmac"/>
+			</intent-filter>
+			
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.basic_activity_burncdwindows"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.basic_activity_burncdwindows"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.basic_activity_optimizingmaciphoto"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.basic_activity_optimizingmaciphoto"/>
+			</intent-filter>
+			
+		</activity>
+		
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.basic_activity_optimizingmacwindows"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.basic_activity_optimizingmacwindows"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.basic_activity_optimizingimageswindowsmicrosoft"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.basic_activity_optimizingimageswindowsmicrosoft"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.basic_activity_optimizingimageswindowsadobe"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.basic_activity_optimizingimageswindowsadobe"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.basic_activity_pdfInstall"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.basic_activity_pdfInstall"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.basic_activity_pdfCreate"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.basic_activity_pdfCreate"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.basic_activity_pdfcreatemac"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.basic_activity_pdfcreatemac"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.basic_activity_pdfscan"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.basic_activity_pdfscan"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.basic_activity_scanninghp"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.basic_activity_scanninghp"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.basic_activity_scanningadobe"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.basic_activity_scanningadobe"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.basic_activity_scanningocr"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.basic_activity_scanningocr"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.basic_activity_screenshotmac"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.basic_activity_screenshotmac"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.basic_activity_screenshotwindows"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.basic_activity_screenshotwindows"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.basic_activity_screenshotwindowsxp"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.basic_activity_screenshotwindowsxp"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.basic_activity_softwareupdatemac"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.basic_activity_softwareupdatemac"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.basic_activity_softwareupdatewindows"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.basic_activity_softwareupdatewindows"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.basic_activity_technologypurchasesinstitutional"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.basic_activity_technologypurchasesinstitutional"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.basic_activity_technologypurchaselaptop"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.basic_activity_technologypurchaselaptop"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.basic_activity_technologypurchasesoftware"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.basic_activity_technologypurchasesoftware"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.basic_activity_technologypurchasefaq"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.basic_activity_technologypurchasefaq"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.basic_activity_technologypurchaseinternationalstudents"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.basic_activity_technologypurchaseinternationalstudents"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.dyknow_activity_main"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.dyknow_activity_main"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.dyknow_activity_install"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.dyknow_activity_install"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.dyknow_activity_instructor"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.dyknow_activity_instructor"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.dyknow_activity_helpsupport"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.dyknow_activity_helpsupport"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.dyknow_activity_faq"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.dyknow_activity_faq"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.dyknow_activity_student"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.dyknow_activity_student"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.dyknow_activity1"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.dyknow_activity1"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.eservices_activity1"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.dyknow_activity1"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.eservices_activity_main"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.eservices_activity_main"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.eservices_activity_login"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.eservices_activity_login"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.eservices_activity_passchange"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.eservices_activity_passchange"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.activity_main_faq"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.activity_main_faq"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.submit_technician_request"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.submit_technician_request"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.google_activity_main"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.google_activity_main"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.google_activity_activitygoogle"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.google_activity_activitygoogle"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.google_activity_logingoogle"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.google_activity_logingoogle"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.google_activity_changegoogle"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.google_activity_changegoogle"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.google_activity_makegoogle"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.google_activity_makegoogle"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.google_activity_createhtml"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.google_activity_createhtml"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.google_activity_mobilegoogle"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.google_activity_mobilegoogle"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.google_activity_popsettings"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.google_activity_popsettings"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.google_activity_readgoogle"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.google_activity_readgoogle"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.google_activity_faqgoogle"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.google_activity_faqgoogle"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.google_activity1"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.google_activity1"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.google_activity_schedulegoogle"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.google_activity_schedulegoogle"/>
+			</intent-filter>
+			
+		</activity>
+
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.google_activity_setupgoogle"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.google_activity_setupgoogle"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.google_activity_viewgoogle"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.google_activity_viewgoogle"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.google_activity_drive"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.google_activity_drive"/>
+			</intent-filter>
+			
+		</activity>		
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.google_activity_createdrive"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.google_activity_createdrive"/>
+			</intent-filter>
+			
+		</activity>		
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.google_activity_editdrive"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.google_activity_editdrive"/>
+			</intent-filter>
+			
+		</activity>		
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.google_activity_sharedrive"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.google_activity_sharedrive"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.google_activity_insertdrive"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.google_activity_insertdrive"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.google_activity_createspread"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.google_activity_createspread"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.google_activity_editspread"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.google_activity_editspread"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.google_activity_insertspread"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.google_activity_insertspread"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.google_activity_sharespread"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.google_activity_sharespread"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.google_activity_createform"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.google_activity_createform"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.google_activity_addform"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.google_activity_addform"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.google_activity_collectform"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.google_activity_collectform"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.hardware_activity1"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.hardware_activity1"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.hardware_activity_main"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.hardware_activity_main"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.google_activity_pageform"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.google_activity_pageform"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.hardware_activity_tech"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.hardware_activity_tech"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.hardware_activity_media"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.hardware_activity_media"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.hardware_activity_att"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.hardware_activity_att"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.healthy_activity_main"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.hardware_activity_main"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.healthy_activity_backup"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.healthy_activity_backup"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.healthy_activity_option"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.healthy_activity_option"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.healthy_activity_keychain"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.healthy_activity_keychain"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.healthy_activity_protect1"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.healthy_activity_protect1"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.healthy_activity_protect2"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.healthy_activity_protect2"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.healthy_activity_protect3"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.healthy_activity_protect3"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.healthy_activity_protect4"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.healthy_activity_protect4"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.healthy_activity_protect5"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.healthy_activity_protect5"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.healthy_activity_protect6"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.healthy_activity_protect6"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.healthy_activity_spam"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.healthy_activity_spam"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.healthy_activity1"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.healthy_activity1"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.instructional_activity1"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.instructional_activity1"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.instructional_activity_chemDraw"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.instructional_activity_chemDraw"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.instructional_activity_moodlemain"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.instructional_activity_moodlemain"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.instructional_activity_moodlenavigation"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.instructional_activity_moodlenavigation"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.instructional_activity_facultylogin"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.instructional_activity_facultylogin"/>
+			</intent-filter>
+			
+		</activity>		
+						
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.instructional_activity_faculty19to23"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.instructional_activity_faculty19to23"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.instructional_activity_changepass"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.instructional_activity_changepass"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.instructional_activity_managecourse"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.instructional_activity_managecourse"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.instructional_activity_createassign"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.instructional_activity_createassign"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.instructional_activity_createforum"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.instructional_activity_createforum"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.instructional_activity_wiki"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.instructional_activity_wiki"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.instructional_activity_creategroup"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.instructional_activity_creategroup"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.instructional_activity_usegrade"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.instructional_activity_usegrade"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.instructional_activity_exportgrade"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.instructional_activity_exportgrade"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.instructional_activity_facultyoverview"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.instructional_activity_facultyoverview"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.instructional_activity_macsaving"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.instructional_activity_macsaving"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.instructional_activity_moodlemanagecourse"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.instructional_activity_moodlemanagecourse"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.instructional_activity_managecontent"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.instructional_activity_managecontent"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.instructional_activity_faq"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.instructional_activity_faq"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.moodle_activity1"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.moodle_activity1"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.multimedia_activity1"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.multimedia_activity1"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.multimedia_activity_definewebmac"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.multimedia_activity_definewebmac"/>
+			</intent-filter>
+			
+		</activity>		
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.multimedia_activity_definewebwindows"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.multimedia_activity_definewebwindows"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.multimedia_activity_javainstall"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.multimedia_activity_javainstall"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.multimedia_activity_personalweb"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.multimedia_activity_personalweb"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.network_activity1"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.network_activity1"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.network_activity_main"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.network_activity_main"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.network_activity_wiredwireless"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.network_activity_wiredwireless"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.network_activity_netdrives"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.network_activity_netdrives"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.network_activity_wireless"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.network_activity_wireless"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.network_activity_dns"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.network_activity_dns"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.network_activity_driveswindows"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.network_activity_driveswindows"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.network_activity_drivesmac"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.network_activity_drivesmac"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.network_activity_offcampusmac"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.network_activity_dns"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.network_activity_offcampuswindows"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.network_activity_offcampuswindows"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.instructional_activity_absence"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.instructional_activity_absence"/>
+			</intent-filter>
+			
+		</activity>
+			
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.phone_activity_main"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.phone_activity_main"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.phone_activity_basic"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.phone_activity_basic"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.phone_activity_google"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.phone_activity_google"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.phone_activity_discounts"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.phone_activity_discounts"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.phones_activity1"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.phones_activity1"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.printing_activity1"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.printing_activity1"/>
+			</intent-filter>
+			
+		</activity>
+	
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.printing_activity_services"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.printing_activity_services"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.printing_activity_scanbw"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.printing_activity_scanbw"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.printing_activity_release"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.printing_activity_release"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.printing_activity_reduceenlarge"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.printing_activity_reduceenlarge"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.printing_activity_printquota"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.printing_activity_printquota"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.printing_activity_printingmac"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.printing_activity_printingmac"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.printing_activity_learnmore"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.printing_activitylearnmore"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.printing_activity_copycolor"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.printing_activity_copycolor"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.printing_activity_copybw"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.printing_activity_copybw"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.printing_activity_connectnetwork"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.printing_activity_connectnetwork"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.printing_activity_benefits"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.printing_activity_benefits"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.printing_activity_scancolor"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.printing_activity_scancolor"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.printing_activity_scanstorebw"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.printing_activity_scanstorecolor"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.printing_activity_sync"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.printing_activity_sync"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.printing_activity_usbbw"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.printing_activity_usbbw"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.printing_activity_usbcolor"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.printing_activity_usbcolor"/>
+			</intent-filter>
+			
+		</activity>
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.printing_activity_windows"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.printing_activity_windows"/>
+			</intent-filter>
+			
+		</activity>	
+		
+		<activity 
+			android:name="com.Depauw.dpuhelpdesk.developer"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.developer"/>
+			</intent-filter>
+			
+		</activity>		
+		
+		
+    </application>
+
+</manifest>
